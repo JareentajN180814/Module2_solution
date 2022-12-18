@@ -5,6 +5,19 @@
   h1{
     text-align: center;
   }
+  #heading1,#heading2,#heading3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    height: 40px;
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  
+
+  }
   
   p {
     background-color: #79dddd;
@@ -16,50 +29,20 @@
   }
   
   
-  #container {
+  #sec {
     position: relative;
     
   }
   
-  #p1 {
+  #heading1 {
     background-color: #98abd5;
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-weight: bold;
-    height: 35px;
-    width: 120px;
-    padding: 10px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-  
   }
-  #p2 {
+  #heading2 {
     background-color:#c14378 ;
-    color: white;
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-weight: bold;
-    height: 35px;
-    width: 120px;
-    padding: 10px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
   
   }
-  #p3 {
-   background-color: #f0cc69;
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-weight: bold;
-    height: 35px;
-    width: 120px;
-    padding: 10px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-  
+  #heading3 {
+    background-color: #f0cc69;
   }
   
   
